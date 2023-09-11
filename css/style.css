@@ -157,3 +157,35 @@ nav a:hover{
     padding: 5px;
     font-size: 30px;
 }
+footer{
+    background-color: white;
+    margin: 30px 0;
+}
+footer .container{
+    display: flex;
+}
+footer h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: blue;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+footer ul{
+    list-style: none;
+    margin-top: 5px;
+}
+footer ul li{
+    pad: 5px 0;
+}
+footer ul li a{
+    color:#2b2b2b;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    text-decoration: underline;
+    
+}
